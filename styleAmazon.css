@@ -20,8 +20,8 @@
     height: 3.125rem;
     width: 8rem;
     display: flex;
-    align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #0F1111;
-    width: 48rem;
+    width: 45rem;
     height: 2.5rem;
     border-radius: 3px;
 }
@@ -135,9 +135,9 @@
 span{
     /* margin-left: 0.625rem;
     margin-right: 0.625rem; */
+    font-size: 0.75rem;
     display: flex;
     justify-content: center;
-    font-size: 0.75rem;
 }
 
 .nav-second{
@@ -145,6 +145,7 @@ span{
     margin-right: 0.625rem;
     font-size: 0.8rem;
     font-weight: 700;
+    text-align: center;
 }
 
 /* CART  */
@@ -230,7 +231,7 @@ span{
     align-self: center;
 }
 
-.panel-ops p{
+.panel-ops div{
     /* display: inline; */
     display: flex;
     align-items: center;
@@ -365,7 +366,7 @@ ul a{
     margin-top: 50px;
 }
 
-.anchor-tags{
+.anchor-tags1, .anchor-tags2, .anchor-tags3, .anchor-tags4{
     margin-top: 10px;
 }
 
@@ -416,4 +417,92 @@ ul a{
     padding-top: 5px;
     font-size: 0.85rem;
     text-align: center;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .nav-search{
+        width: 30rem;
+        height: 2.5rem;
+    }
+
+    .nav-address, .nav-language, .nav-signin, .nav-return{
+        display: none;
+    }
+
+    .nav-logo{
+        width: 12rem;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .panel-ops{
+        .op2, .op3, .op4, .op5{
+            display: none;
+        }
+    }
+
+    .panel-deals p{
+       text-align: center;
+    }
+
+    .hero-section{
+        background-image: url("hero_image_final.jpg");  /* give height and width first */
+        height: 15rem;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-msg{
+        height: 3.5rem;
+    }
+
+    .shop-section{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        width: 80%;
+    }
+
+    .foot-panel2{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        height: 22rem;
+
+        .tag1, .tag2{
+            display: none;
+        }
+
+        .anchor-tags1, .anchor-tags2{
+            display: none;
+        }
+
+        /* ul{
+            margin-top: 20px;
+        } */
+
+        .anchor-tags3, .anchor-tags4{
+            text-align: center;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .tag3, .tag4{
+            text-align: center;
+        }
+    }
+
+    .foot-panel4{
+        height: 6rem;
+    }
 }
