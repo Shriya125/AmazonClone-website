@@ -18,13 +18,16 @@
 
 .nav-logo {
     height: 3.125rem;
-    width: 9rem;
+    width: 8rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .logo{
     background-image: url("amazon_logo.png");
     height: 3.125rem;
-    width: 100%;
+    width: 80%;
     background-size: cover;
 }
 
@@ -71,7 +74,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #0F1111;
-    width: 47rem;
+    width: 48rem;
     height: 2.5rem;
     border-radius: 3px;
 }
