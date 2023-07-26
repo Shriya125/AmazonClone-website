@@ -472,21 +472,21 @@ ul a{
 
     
     .foot-panel2{
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
-        height: 22rem;
+        align-items: center; */
+        height: 15rem;
 
-        .tag1, .tag2, .tag3{
+        .tag1, .tag2, .tag4{
             display: none;
         }
 
-        .anchor-tags1, .anchor-tags2, .anchor-tags3{
+        .anchor-tags1, .anchor-tags2, .anchor-tags4{
             display: none;
         }
 
-        .anchor-tags4{
-            text-align: center;
+        .anchor-tags3{
+            /* text-align: center; */
         }
 
         /* .anchor-tags4{
@@ -498,7 +498,7 @@ ul a{
             text-align: center;
         } */
 
-        .tag4{
+        .tag3{
             text-align: center;
         }
     }
