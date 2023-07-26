@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    height: 60px;
+    height: 3.75rem;
     background-color: #0F1111;
     color: white;
     display: flex;
@@ -17,13 +17,13 @@
 /* AMAZON LOGO  */
 
 .nav-logo {
-    height: 50px;
-    width: 100px;
+    height: 3.125rem;
+    width: 6.25rem;
 }
 
 .logo{
     background-image: url("amazon_logo.png");
-    height: 50px;
+    height: 3.125rem;
     width: 100%;
     background-size: cover;
 }
@@ -41,7 +41,7 @@
 /* DELIVER TO INDIA */
 
 .nav-address{
-    height: 50px;
+    height: 3.125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,8 +71,8 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #0F1111;
-    width: 850px;
-    height: 40px;
+    width: 53.125rem;
+    height: 2.5rem;
     border-radius: 3px;
 }
 
@@ -81,7 +81,7 @@
     border-bottom-left-radius : 3px;
     background-color: #f3f3f3;
     border: none;
-    width: 50px;
+    width: 3.125rem;
     text-align: center;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .search-icon{
-    width: 45px;
+    width: 2.8125rem;
     border: none;
     /* text-align: center; */
     display: flex;
@@ -116,14 +116,14 @@
 /* SIGN IN and RETURNS */
 
 .nav-signin{
-    height: 50px;
+    height: 3.125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .nav-return{
-    height: 50px;
+    height: 3.125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,11 +146,11 @@ span{
 
 .nav-cart{
     display: flex;
-    height: 50px;
+    height: 3.125rem;
 }
 
 .nav-cart i{
-    font-size: 30px;
+    font-size: 1.875rem;
     margin: 10px 0px 10px 10px;
 }
 
@@ -166,7 +166,7 @@ span{
 /* LANGUAGE */
 
 .nav-language{
-    height: 50px;
+    height: 3.125rem;
     /* width: 80px; */
     /* border: 2px solid white; */
     display: flex;
@@ -175,8 +175,8 @@ span{
 }
 
 .nav-image{
-    height: 15px;
-    width: 20px;
+    height: 0.9375rem;
+    width: 1.25rem;
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 10px;
@@ -201,7 +201,7 @@ span{
 
 .panel{
     display: flex;
-    height: 40px;
+    height: 2.5rem;
     background-color: #222f3d;
     color: white;
     align-items: center;
@@ -230,7 +230,7 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 40px;
+    height: 2.5rem;
     margin-left: 15px;
     font-size: 0.9rem;
 }
@@ -249,7 +249,7 @@ span{
 .panel-deals{
     font-size: 1rem;
     font-weight: 700;
-    height: 40px;
+    height: 2.5rem;
     display: flex;
     align-items: center;
 }
@@ -262,7 +262,7 @@ span{
 
 .hero-section{
     background-image: url("hero_image.jpg");  /* give height and width first */
-    height: 380px;
+    height: 23.75rem;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -272,7 +272,7 @@ span{
 .hero-msg{
     background-color: white;
     color: black;
-    height: 40px;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,7 +296,7 @@ span{
 }
 
 .box{
-    height: 400px;
+    height: 25rem;
     /* border: 2px solid black; */
     width: 23%;
     background-color: white;
@@ -305,7 +305,7 @@ span{
 }
 
 .box-image{
-    height: 300px;
+    height: 18.75rem;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 1rem;
@@ -342,7 +342,7 @@ footer{
 .foot-panel2{
     background-color: #222f3d;
     color: white;
-    height: 420px;
+    height: 26.25rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -373,7 +373,7 @@ ul a{
     background-color: #222f3d;
     color: white;
     border-top: 0.5px solid rgba(255, 255, 255, 0.117);
-    height: 70px;
+    height: 4.375rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,8 +381,8 @@ ul a{
 
 .foot-logo{
     background-image: url("amazon_logo.png");
-    height: 50px;
-    width: 100px;
+    height: 3.125rem;
+    width: 6.25rem;
     background-size: cover;
 }
 
@@ -392,7 +392,7 @@ ul a{
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    height: 80px;
+    height: 5rem;
 }
 
 .pages{
