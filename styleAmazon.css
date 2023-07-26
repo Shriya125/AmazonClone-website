@@ -471,35 +471,35 @@ ul a{
     }
 
     .foot-panel2{
-        /* display: flex;
-        flex-direction: column;
+        display: flex;
         justify-content: center;
-        align-items: center; */
+        align-items: center;
         height: 22rem;
 
-        .tag1, .tag2{
+        .tag1, .tag2, .tag3{
             display: none;
         }
 
-        .anchor-tags1, .anchor-tags2{
+        .anchor-tags1, .anchor-tags2, .anchor-tags3{
             display: none;
         }
 
-        /* ul{
-            margin-top: 20px;
-        } */
+        .anchor-tags4{
+            text-align: center;
+        }
 
-        .anchor-tags3, .anchor-tags4{
+        .tag4{
+            text-align: center;
+        }
+        
+        /* .anchor-tags4{
             text-align: center;
             margin-top: 10px;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
+        } */
 
-        .tag3, .tag4{
+        /* .tag3, .tag4{
             text-align: center;
-        }
+        } */
     }
 
     .foot-panel4{
