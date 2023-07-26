@@ -471,11 +471,11 @@ ul a{
     }
 
     
-    .foot-panel2{
+/*     .foot-panel2{ */
         /* display: flex;
         justify-content: center;
         align-items: center; */
-        height: 15rem;
+/*         height: 15rem;
 
         .tag1, .tag2, .tag4{
             display: none;
@@ -487,7 +487,7 @@ ul a{
 
         .anchor-tags3{
             /* text-align: center; */
-        }
+        } */
 
         /* .anchor-tags4{
             text-align: center;
@@ -498,10 +498,10 @@ ul a{
             text-align: center;
         } */
 
-        .tag3{
+/*         .tag3{
             text-align: center;
         }
-    }
+    } */
    
 
     /* .foot-panel2{
